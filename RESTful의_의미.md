@@ -60,8 +60,8 @@ URL을 `자원 식별자`로 쓰잔느 철학은 API나 웹 페이지 모두에 
 
 ## References
 
-[What Is a REST API? Examples, Uses & Challenges | Postman Blog](https://blog.postman.com/rest-api-examples/)
+- [What Is a REST API? Examples, Uses & Challenges | Postman Blog](https://blog.postman.com/rest-api-examples/)
 
-[What is REST?: REST API Tutorial](https://restfulapi.net/)
+- [What is REST?: REST API Tutorial](https://restfulapi.net/)
 
-모던 자바스크립트 Deep Dive
+- 모던 자바스크립트 Deep Dive
