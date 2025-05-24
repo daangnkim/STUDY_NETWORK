@@ -34,6 +34,12 @@ ssh-keygen -t rsa -C "your-email-address" -f "github-username"
 
 identity key와 passphrase를 관리하는 프로그램이다.
 
+## config file
+
+SSH client config file로, server와 연결할 때 미리 설정된 명령어들로 연결한다.
+
+
+[SSH Client Config File Example](https://goteleport.com/blog/ssh-client-config-file-example/)
 
 [How To Work With Multiple Github Accounts on your PC](https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3)
 
