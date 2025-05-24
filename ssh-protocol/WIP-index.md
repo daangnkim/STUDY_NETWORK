@@ -14,6 +14,8 @@ public key는 서버가 가지고 있는다. 그리고 public key를 가지고 �
 
 private key는 유저가 가지고 있는다. public key에 매핑되는 private key를 가지고 있어야만 인증된다. private key는 복사되면 안되며 보호돼야한다. identity key라고도 부른다.
 
+Public Key Authentication 알고리즘 중 하나가 RSA 알고리즘이다.
+
 ## passpharse
 
 private key에 대한 보호는 passphrase를 통해 암호화된다.
@@ -22,10 +24,18 @@ private key를 사용할 때마다 passphrase 입력을 통해 decrpytion 된다
 
 매번 passphrase를 입력해야 하는 것은 아니고, SSH Agent가 이를 알아서 처리해준다.
 
+```
+ssh-keygen -t rsa -C "your-email-address" -f "github-username"
+```
+
+위 명령어는 MAC OS 에서 ssh-keygen을 이용해서 key를 생성하는 명령어다.
+
 ## ssh-agent
 
 identity key와 passphrase를 관리하는 프로그램이다.
 
+
+[How To Work With Multiple Github Accounts on your PC](https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3)
 
 [What is SSH Public Key Authentication?](https://www.ssh.com/academy/ssh/public-key-authentication)
 
