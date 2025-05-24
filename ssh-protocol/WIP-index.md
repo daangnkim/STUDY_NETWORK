@@ -22,7 +22,7 @@ private key에 대한 보호는 passphrase를 통해 암호화된다.
 
 private key를 사용할 때마다 passphrase 입력을 통해 decrpytion 된다.
 
-매번 passphrase를 입력해야 하는 것은 아니고, SSH Agent가 이를 알아서 처리해준다.
+매번 passphrase를 입력해야 하는 것은 아니고, SSH agent가 이를 알아서 처리해준다.
 
 ```
 ssh-keygen -t rsa -C "your-email-address" -f "github-username"
