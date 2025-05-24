@@ -38,6 +38,20 @@ identity key와 passphrase를 관리하는 프로그램이다.
 
 SSH client config file로, server와 연결할 때 미리 설정된 명령어들로 연결한다.
 
+## instructions
+
+
+```sh
+# 로컬에 저장된 SSH 키 목록 조회
+ls -la ~/.ssh/
+
+# SSH Agent에 로드된 키 확인
+ssh-add -l
+
+# SSH Agent에서 키 제거
+ssh-add -d ~/.ssh/키파일명
+```
+
 
 [SSH Client Config File Example](https://goteleport.com/blog/ssh-client-config-file-example/)
 
