@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "13956a5055a4ac08",
@@ -195,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "60dbce3a517f1e0f",
+  "active": "ca947bc30286ceec",
   "lastOpenFiles": [
     "ssh-protocol/WIP-index.md",
     "cover-image.png",
